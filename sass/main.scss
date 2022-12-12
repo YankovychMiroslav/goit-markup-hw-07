@@ -1,0 +1,11 @@
+//utils styles
+@import './utils/variables';
+@import './utils/placeholders.scss';
+
+//base styles
+@import './base/base';
+@import './base/reset';
+@import './base/card-set';
+//components styles
+// @import './components/';
+@import './components/container';

@@ -1,0 +1,75 @@
+:root {
+  --link-focus-color: #2196f3;
+  --text-paragraf-color: #757575;
+  --text-fon-white-color: #ffffff;
+  --text-title-color: #212121;
+  --background-btn-color: #188ce8;
+  --header-border-bottom: #ececec;
+  --background: #f5f4fa;
+  --link-background-color: #afb1b8;
+  --footer-bac-color: #2f303a;
+  --border-cart: #eeeeee;
+  --indent: 30px;
+  --items: 3;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: var(--text-fon-white-color);
+  color: var(--text-title-color);
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: var(--indent);
+}
+
+.card-set-indent {
+  -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+      flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
