@@ -13,17 +13,17 @@
   min-width: 231px;
 }
 
-.footre__items {
+.footer__items {
   margin-bottom: 9px;
 }
 
-.footre__gps {
+.footer__gps {
   display: block;
   font-style: normal;
   line-height: 24px;
   color: var(--text-fon-white-color);
 }
-.footre__link {
+.footer__link {
   display: block;
   font-style: normal;
   line-height: calc(24 / 14);
@@ -38,7 +38,7 @@
     color: var(--link-focus-color);
   }
 }
-.footre-social__title {
+.footer-social__title {
   margin-bottom: 20px;
   display: flex;
   font-weight: 700;
@@ -49,19 +49,19 @@
   font-style: normal;
 }
 
-.footre-social__list {
+.footer-social__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.footre-social__item {
+.footer-social__item {
   width: 44px;
   height: 44px;
 }
 
-.footre-social__link {
+.footer-social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,8 +69,8 @@
   height: 100%;
   border-radius: 50%;
   outline: none;
-  color: var(--text-fon-white-color);
-  background: rgba(255, 255, 255, 0.1);
+  fill: var(--text-fon-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -82,11 +82,15 @@
   }
 }
 
-.footre-email__overlay {
+.footre-social__icon {
+  fill: currentColor;
+}
+
+.footer-email__overlay {
   margin-left: 93px;
 }
 
-.footre-email__subtitle {
+.footer-email__subtitle {
   display: flex;
   margin-bottom: 20px;
   font-weight: 700;
@@ -98,12 +102,12 @@
   color: var(--text-fon-white-color);
 }
 
-.footre-email__box {
+.footer-email__box {
   display: flex;
   gap: 12px;
 }
 
-.footre-email__footer {
+.footer-email__footer {
   display: flex;
   gap: 12px;
   width: 358px;
@@ -124,7 +128,7 @@
     border-color: var(--link-focus-color);
   }
 }
-.footre-email__footer:placeholder {
+.footer-email__footer:placeholder {
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -135,7 +139,7 @@
 
   color: rgba(255, 255, 255, 0.6);
 }
-.footre-email__btn {
+.footer-email__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,8 +158,21 @@
   cursor: pointer;
   border: none;
 }
-.footre-email__icon {
+.footer-email__icon {
   top: 13px;
   right: 28px;
   margin-left: 10px;
+}
+
+.logo__footer {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--link-focus-color);
+}
+.logo__text--light {
+  width: 145px;
+  color: var(--text-fon-white-color);
 }

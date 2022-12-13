@@ -1,6 +1,6 @@
 //utils styles
 @import './utils/variables';
-@import './utils/placeholders.scss';
+@import './utils/section';
 
 //base styles
 @import './base/base';
@@ -18,6 +18,6 @@
 @import './components/production';
 @import './components/group';
 @import './components/footer';
-@import './components/logo_footer';
-@import './components/backdrop';
 @import './components/modal';
+@import './components/filters';
+@import './components/alert';
