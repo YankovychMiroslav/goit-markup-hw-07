@@ -1,12 +1,11 @@
 //utils styles
 @import './utils/variables';
-@import './utils/section';
 
 //base styles
 @import './base/base';
 @import './base/reset';
 @import './base/card-set';
-//components styles
+
 // @import './components/';
 @import './components/container';
 @import './components/partners';
@@ -19,6 +18,14 @@
 @import './components/group';
 @import './components/footer';
 @import './components/modal';
-@import './components/filters';
 @import './components/alert';
 @import './components/progect';
+
+//layout styles
+@import './layout/filters';
+@import './layout/forward';
+@import './layout/group';
+@import './layout/hero';
+@import './layout/parthers';
+@import './layout/progect';
+@import './layout/production';

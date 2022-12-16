@@ -11,12 +11,12 @@
   line-height: calc(16 / 14);
   text-transform: uppercase;
   font-size: 14px;
-  color: var(--text-title-color);
+  color: $text-title-color;
 }
 .forward__text {
   width: 270px;
   line-height: calc(24 / 14);
-  color: var(--text-paragraf-color);
+  color: $text-paragraf-color;
 }
 .forward__svg {
   display: flex;
@@ -24,6 +24,6 @@
   align-items: center;
   height: 120px;
   margin-bottom: 30px;
-  background: var(--background);
+  background: $background;
   border-radius: 4px;
 }

@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: $indent;
-}
-.card-set-indent {
-  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+
+  &-items {
+    flex-basis: calc((100% - #{$indent} * (#{$items} - 1)) / #{$items});
+  }
 }
