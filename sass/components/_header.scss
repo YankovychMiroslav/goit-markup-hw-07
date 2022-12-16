@@ -1,5 +1,5 @@
 .header {
-  border-bottom: 1px solid $header-border-bottom;
+  border-bottom: 1px solid var(--header-border-bottom);
 }
 
 .header__container {
@@ -20,7 +20,7 @@
   line-height: calc(24 / 14);
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: $text-paragraf-color;
+  color: var(--text-paragraf-color);
   padding-top: 32px;
   padding-bottom: 32px;
   transition-property: color;
@@ -29,11 +29,11 @@
 
   &:hover,
   &:focus {
-    color: $link-focus-color;
+    color: var(--link-focus-color);
   }
 
   &::after {
-    color: $link-focus-color;
+    color: var(--link-focus-color);
 
     position: absolute;
     transform: translateX(-50%);
@@ -45,7 +45,7 @@
     border-radius: 2px;
     bottom: -4px;
 
-    background: $link-focus-color;
+    background: var(--link-focus-color);
     opacity: 1;
   }
 }

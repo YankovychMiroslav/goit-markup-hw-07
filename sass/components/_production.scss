@@ -3,7 +3,7 @@
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  color: $text-title-color;
+  color: var(--text-title-color);
 }
 
 .production__list {
@@ -31,5 +31,5 @@
   line-height: calc(16 / 14);
   text-align: center;
   text-transform: uppercase;
-  color: $text-fon-white-color;
+  color: var(--text-fon-white-color);
 }

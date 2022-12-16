@@ -1,7 +1,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: $footer-bac-color;
+  background-color: var(--footer-bac-color);
 }
 
 .footer__overlay {
@@ -21,7 +21,7 @@
   display: block;
   font-style: normal;
   line-height: 24px;
-  color: $text-fon-white-color;
+  color: var(--text-fon-white-color);
 }
 .footer__link {
   display: block;
@@ -35,7 +35,7 @@
 
   &:hover,
   &:focus {
-    color: $link-focus-color;
+    color: var(--link-focus-color);
   }
 }
 .footer-social__title {
@@ -45,7 +45,7 @@
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
-  color: $text-fon-white-color;
+  color: var(--text-fon-white-color);
   font-style: normal;
 }
 
@@ -69,7 +69,7 @@
   height: 100%;
   border-radius: 50%;
   outline: none;
-  fill: $text-fon-white-color;
+  fill: var(--text-fon-white-color);
   background-color: rgba(255, 255, 255, 0.1);
   transition-property: background-color;
   transition-duration: 250ms;
@@ -77,8 +77,8 @@
 
   &:hover,
   &:focus {
-    color: $text-fon-white-color;
-    background-color: $link-focus-color;
+    color: var(--text-fon-white-color);
+    background-color: var(--link-focus-color);
   }
 }
 
@@ -99,7 +99,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: $text-fon-white-color;
+  color: var(--text-fon-white-color);
 }
 
 .footer-email__box {
@@ -113,7 +113,7 @@
   width: 358px;
   height: 50px;
   padding: 16px 15px;
-  color: $text-fon-white-color;
+  color: var(--text-fon-white-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -125,7 +125,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus {
-    border-color: $ink-focus-color;
+    border-color: var(--link-focus-color);
   }
 }
 .footer-email__footer:placeholder {
@@ -151,8 +151,8 @@
 
   line-height: calc(30 / 16);
 
-  color: $text-fon-white-color;
-  background: $link-focus-color;
+  color: var(--text-fon-white-color);
+  background: var(--link-focus-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -170,9 +170,9 @@
   font-family: 'Raleway';
   font-size: 26px;
   line-height: calc(31 / 26);
-  color: $link-focus-color;
+  color: var(--link-focus-color);
 }
 .logo__text--light {
   width: 145px;
-  color: $text-fon-white-color;
+  color: var(--text-fon-white-color);
 }

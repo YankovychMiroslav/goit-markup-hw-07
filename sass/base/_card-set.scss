@@ -1,7 +1,7 @@
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--indent);
+  gap: $indent;
 }
 .card-set-indent {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
